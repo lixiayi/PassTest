@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		024B1C8E1E6E61350050F3EE /* PassKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 024B1C8D1E6E61350050F3EE /* PassKit.framework */; };
+		026345441E6D3EAD00257D14 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 026345431E6D3EAD00257D14 /* main.m */; };
+		026345471E6D3EAD00257D14 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 026345461E6D3EAD00257D14 /* AppDelegate.m */; };
+		0263454A1E6D3EAD00257D14 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 026345491E6D3EAD00257D14 /* ViewController.m */; };
+		0263454D1E6D3EAD00257D14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0263454B1E6D3EAD00257D14 /* Main.storyboard */; };
+		0263454F1E6D3EAD00257D14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0263454E1E6D3EAD00257D14 /* Assets.xcassets */; };
+		026345521E6D3EAD00257D14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 026345501E6D3EAD00257D14 /* LaunchScreen.storyboard */; };
+		026345641E6D6F1400257D14 /* mywallet.pkpass in Resources */ = {isa = PBXBuildFile; fileRef = 026345621E6D6E8300257D14 /* mywallet.pkpass */; };
+		0273BCA91E6E8C7000A19EBF /* AWDRCA.pem in Resources */ = {isa = PBXBuildFile; fileRef = 0273BC9A1E6E8C7000A19EBF /* AWDRCA.pem */; };
+		0273BCAA1E6E8C7000A19EBF /* CertificateSigningRequest.certSigningRequest in Resources */ = {isa = PBXBuildFile; fileRef = 0273BC9B1E6E8C7000A19EBF /* CertificateSigningRequest.certSigningRequest */; };
+		0273BCAB1E6E8C7000A19EBF /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0273BC9C1E6E8C7000A19EBF /* icon.png */; };
+		0273BCAC1E6E8C7000A19EBF /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0273BC9D1E6E8C7000A19EBF /* icon@2x.png */; };
+		0273BCAD1E6E8C7000A19EBF /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 0273BC9E1E6E8C7000A19EBF /* logo.png */; };
+		0273BCAE1E6E8C7000A19EBF /* logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0273BC9F1E6E8C7000A19EBF /* logo@2x.png */; };
+		0273BCAF1E6E8C7000A19EBF /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 0273BCA01E6E8C7000A19EBF /* manifest.json */; };
+		0273BCB01E6E8C7000A19EBF /* mywallet.pem in Resources */ = {isa = PBXBuildFile; fileRef = 0273BCA11E6E8C7000A19EBF /* mywallet.pem */; };
+		0273BCB11E6E8C7000A19EBF /* mywalletkey.pem in Resources */ = {isa = PBXBuildFile; fileRef = 0273BCA21E6E8C7000A19EBF /* mywalletkey.pem */; };
+		0273BCB21E6E8C7000A19EBF /* pass.cer in Resources */ = {isa = PBXBuildFile; fileRef = 0273BCA31E6E8C7000A19EBF /* pass.cer */; };
+		0273BCB31E6E8C7000A19EBF /* pass.json in Resources */ = {isa = PBXBuildFile; fileRef = 0273BCA41E6E8C7000A19EBF /* pass.json */; };
+		0273BCB41E6E8C7000A19EBF /* passtest.p12 in Resources */ = {isa = PBXBuildFile; fileRef = 0273BCA51E6E8C7000A19EBF /* passtest.p12 */; };
+		0273BCB51E6E8C7000A19EBF /* signature in Resources */ = {isa = PBXBuildFile; fileRef = 0273BCA61E6E8C7000A19EBF /* signature */; };
+		0273BCB61E6E8C7000A19EBF /* strip.png in Resources */ = {isa = PBXBuildFile; fileRef = 0273BCA71E6E8C7000A19EBF /* strip.png */; };
+		0273BCB71E6E8C7000A19EBF /* strip@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0273BCA81E6E8C7000A19EBF /* strip@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		024B1C8D1E6E61350050F3EE /* PassKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PassKit.framework; path = System/Library/Frameworks/PassKit.framework; sourceTree = SDKROOT; };
+		0263453F1E6D3EAD00257D14 /* PassTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PassTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		026345431E6D3EAD00257D14 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		026345451E6D3EAD00257D14 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		026345461E6D3EAD00257D14 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		026345481E6D3EAD00257D14 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		026345491E6D3EAD00257D14 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0263454C1E6D3EAD00257D14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0263454E1E6D3EAD00257D14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		026345511E6D3EAD00257D14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		026345531E6D3EAD00257D14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0263455A1E6D5BE700257D14 /* PassTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PassTest.entitlements; sourceTree = "<group>"; };
+		026345621E6D6E8300257D14 /* mywallet.pkpass */ = {isa = PBXFileReference; lastKnownFileType = file; path = mywallet.pkpass; sourceTree = "<group>"; };
+		0273BC9A1E6E8C7000A19EBF /* AWDRCA.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AWDRCA.pem; sourceTree = "<group>"; };
+		0273BC9B1E6E8C7000A19EBF /* CertificateSigningRequest.certSigningRequest */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CertificateSigningRequest.certSigningRequest; sourceTree = "<group>"; };
+		0273BC9C1E6E8C7000A19EBF /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		0273BC9D1E6E8C7000A19EBF /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		0273BC9E1E6E8C7000A19EBF /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		0273BC9F1E6E8C7000A19EBF /* logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo@2x.png"; sourceTree = "<group>"; };
+		0273BCA01E6E8C7000A19EBF /* manifest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		0273BCA11E6E8C7000A19EBF /* mywallet.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mywallet.pem; sourceTree = "<group>"; };
+		0273BCA21E6E8C7000A19EBF /* mywalletkey.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mywalletkey.pem; sourceTree = "<group>"; };
+		0273BCA31E6E8C7000A19EBF /* pass.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = pass.cer; sourceTree = "<group>"; };
+		0273BCA41E6E8C7000A19EBF /* pass.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = pass.json; sourceTree = "<group>"; };
+		0273BCA51E6E8C7000A19EBF /* passtest.p12 */ = {isa = PBXFileReference; lastKnownFileType = file; path = passtest.p12; sourceTree = "<group>"; };
+		0273BCA61E6E8C7000A19EBF /* signature */ = {isa = PBXFileReference; lastKnownFileType = file; path = signature; sourceTree = "<group>"; };
+		0273BCA71E6E8C7000A19EBF /* strip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = strip.png; sourceTree = "<group>"; };
+		0273BCA81E6E8C7000A19EBF /* strip@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "strip@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0263453C1E6D3EAD00257D14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				024B1C8E1E6E61350050F3EE /* PassKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		026345361E6D3EAD00257D14 = {
+			isa = PBXGroup;
+			children = (
+				026345621E6D6E8300257D14 /* mywallet.pkpass */,
+				026345411E6D3EAD00257D14 /* PassTest */,
+				026345401E6D3EAD00257D14 /* Products */,
+				0263455B1E6D5BE800257D14 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		026345401E6D3EAD00257D14 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0263453F1E6D3EAD00257D14 /* PassTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		026345411E6D3EAD00257D14 /* PassTest */ = {
+			isa = PBXGroup;
+			children = (
+				0263455A1E6D5BE700257D14 /* PassTest.entitlements */,
+				026345451E6D3EAD00257D14 /* AppDelegate.h */,
+				026345461E6D3EAD00257D14 /* AppDelegate.m */,
+				026345481E6D3EAD00257D14 /* ViewController.h */,
+				026345491E6D3EAD00257D14 /* ViewController.m */,
+				0263454B1E6D3EAD00257D14 /* Main.storyboard */,
+				0263454E1E6D3EAD00257D14 /* Assets.xcassets */,
+				026345501E6D3EAD00257D14 /* LaunchScreen.storyboard */,
+				026345531E6D3EAD00257D14 /* Info.plist */,
+				026345421E6D3EAD00257D14 /* Supporting Files */,
+			);
+			path = PassTest;
+			sourceTree = "<group>";
+		};
+		026345421E6D3EAD00257D14 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0273BC991E6E8C3500A19EBF /* 过程文件 */,
+				026345431E6D3EAD00257D14 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0263455B1E6D5BE800257D14 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				024B1C8D1E6E61350050F3EE /* PassKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0273BC991E6E8C3500A19EBF /* 过程文件 */ = {
+			isa = PBXGroup;
+			children = (
+				0273BC9A1E6E8C7000A19EBF /* AWDRCA.pem */,
+				0273BC9B1E6E8C7000A19EBF /* CertificateSigningRequest.certSigningRequest */,
+				0273BC9C1E6E8C7000A19EBF /* icon.png */,
+				0273BC9D1E6E8C7000A19EBF /* icon@2x.png */,
+				0273BC9E1E6E8C7000A19EBF /* logo.png */,
+				0273BC9F1E6E8C7000A19EBF /* logo@2x.png */,
+				0273BCA01E6E8C7000A19EBF /* manifest.json */,
+				0273BCA11E6E8C7000A19EBF /* mywallet.pem */,
+				0273BCA21E6E8C7000A19EBF /* mywalletkey.pem */,
+				0273BCA31E6E8C7000A19EBF /* pass.cer */,
+				0273BCA41E6E8C7000A19EBF /* pass.json */,
+				0273BCA51E6E8C7000A19EBF /* passtest.p12 */,
+				0273BCA61E6E8C7000A19EBF /* signature */,
+				0273BCA71E6E8C7000A19EBF /* strip.png */,
+				0273BCA81E6E8C7000A19EBF /* strip@2x.png */,
+			);
+			path = "过程文件";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0263453E1E6D3EAD00257D14 /* PassTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 026345561E6D3EAD00257D14 /* Build configuration list for PBXNativeTarget "PassTest" */;
+			buildPhases = (
+				0263453B1E6D3EAD00257D14 /* Sources */,
+				0263453C1E6D3EAD00257D14 /* Frameworks */,
+				0263453D1E6D3EAD00257D14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PassTest;
+			productName = PassTest;
+			productReference = 0263453F1E6D3EAD00257D14 /* PassTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		026345371E6D3EAD00257D14 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "xiaoyi li";
+				TargetAttributes = {
+					0263453E1E6D3EAD00257D14 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = MV9CCWC8NT;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Wallet = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 0263453A1E6D3EAD00257D14 /* Build configuration list for PBXProject "PassTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 026345361E6D3EAD00257D14;
+			productRefGroup = 026345401E6D3EAD00257D14 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0263453E1E6D3EAD00257D14 /* PassTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0263453D1E6D3EAD00257D14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0273BCB11E6E8C7000A19EBF /* mywalletkey.pem in Resources */,
+				026345641E6D6F1400257D14 /* mywallet.pkpass in Resources */,
+				0273BCAC1E6E8C7000A19EBF /* icon@2x.png in Resources */,
+				0273BCB71E6E8C7000A19EBF /* strip@2x.png in Resources */,
+				0273BCB21E6E8C7000A19EBF /* pass.cer in Resources */,
+				0273BCB51E6E8C7000A19EBF /* signature in Resources */,
+				0273BCB41E6E8C7000A19EBF /* passtest.p12 in Resources */,
+				0273BCAD1E6E8C7000A19EBF /* logo.png in Resources */,
+				0273BCB31E6E8C7000A19EBF /* pass.json in Resources */,
+				0273BCAB1E6E8C7000A19EBF /* icon.png in Resources */,
+				026345521E6D3EAD00257D14 /* LaunchScreen.storyboard in Resources */,
+				0273BCB61E6E8C7000A19EBF /* strip.png in Resources */,
+				0273BCAF1E6E8C7000A19EBF /* manifest.json in Resources */,
+				0273BCAE1E6E8C7000A19EBF /* logo@2x.png in Resources */,
+				0263454F1E6D3EAD00257D14 /* Assets.xcassets in Resources */,
+				0273BCAA1E6E8C7000A19EBF /* CertificateSigningRequest.certSigningRequest in Resources */,
+				0263454D1E6D3EAD00257D14 /* Main.storyboard in Resources */,
+				0273BCA91E6E8C7000A19EBF /* AWDRCA.pem in Resources */,
+				0273BCB01E6E8C7000A19EBF /* mywallet.pem in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0263453B1E6D3EAD00257D14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0263454A1E6D3EAD00257D14 /* ViewController.m in Sources */,
+				026345471E6D3EAD00257D14 /* AppDelegate.m in Sources */,
+				026345441E6D3EAD00257D14 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0263454B1E6D3EAD00257D14 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0263454C1E6D3EAD00257D14 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		026345501E6D3EAD00257D14 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				026345511E6D3EAD00257D14 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		026345541E6D3EAD00257D14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		026345551E6D3EAD00257D14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		026345571E6D3EAD00257D14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PassTest/PassTest.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = MV9CCWC8NT;
+				INFOPLIST_FILE = PassTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pcidata.passdemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		026345581E6D3EAD00257D14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PassTest/PassTest.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = MV9CCWC8NT;
+				INFOPLIST_FILE = PassTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pcidata.passdemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0263453A1E6D3EAD00257D14 /* Build configuration list for PBXProject "PassTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				026345541E6D3EAD00257D14 /* Debug */,
+				026345551E6D3EAD00257D14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		026345561E6D3EAD00257D14 /* Build configuration list for PBXNativeTarget "PassTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				026345571E6D3EAD00257D14 /* Debug */,
+				026345581E6D3EAD00257D14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 026345371E6D3EAD00257D14 /* Project object */;
+}
